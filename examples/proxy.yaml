@@ -1,0 +1,18 @@
+model_list:
+  - model_name: magic-hour-image
+    litellm_params:
+      model: magichour/z-image-turbo
+      api_key: os.environ/MAGIC_HOUR_API_KEY
+    model_info:
+      mode: image_generation
+
+litellm_settings:
+  num_retries: 0
+  callbacks:
+    - magic_hour_litellm.proxy_hook
+  custom_provider_map:
+    - provider: magichour
+      custom_handler: magic_hour_litellm.provider
+
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY

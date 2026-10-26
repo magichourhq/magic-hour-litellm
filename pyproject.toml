@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools==84.2.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "magic-hour-litellm"
+version = "0.1.0"
+description = "Magic Hour image generation through LiteLLM's CustomLLM interface"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = ["litellm==1.106.3", "httpx>=0.28.1,<1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

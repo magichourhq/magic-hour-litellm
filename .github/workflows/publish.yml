@@ -14,8 +14,6 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    # PyPI's trusted publisher for this project is limited to this environment.
-    environment: pypi
     permissions:
       contents: write # Required to create the GitHub release
       id-token: write # Required for PyPI trusted publishing

@@ -10,7 +10,7 @@ It supports one model, `z-image-turbo`, and one square image per call.
 pip install magic-hour-litellm
 ```
 
-Requires Python 3.10 or newer and LiteLLM 1.106.3 or newer. Set `MAGIC_HOUR_API_KEY` to a key from your [Magic Hour developer dashboard](https://magichour.ai/developer).
+Requires Python 3.10 or newer and LiteLLM 1.81.7 or newer. Set `MAGIC_HOUR_API_KEY` to a key from your [Magic Hour developer dashboard](https://magichour.ai/developer).
 
 ## SDK
 

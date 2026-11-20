@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
 license-files = ["LICENSE"]
-dependencies = ["litellm>=1.106.3,<2", "httpx>=0.28.1,<1"]
+dependencies = ["litellm>=1.81.7,<2", "httpx>=0.28.1,<1"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

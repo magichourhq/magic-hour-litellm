@@ -29,6 +29,6 @@ jobs:
       # The proxy hook tests need LiteLLM's proxy extras.
       - run: pip install . "litellm[proxy]"
       - if: matrix.litellm == 'oldest'
-        run: pip install "litellm[proxy]==1.106.3"
+        run: pip install "litellm[proxy]==1.81.7"
       - run: pip show litellm
       - run: python -m unittest discover -s tests -v

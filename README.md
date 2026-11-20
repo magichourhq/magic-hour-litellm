@@ -1,5 +1,7 @@
 # Magic Hour for LiteLLM
 
+[![PyPI](https://img.shields.io/pypi/v/magic-hour-litellm)](https://pypi.org/project/magic-hour-litellm/)
+
 Generate images with [Magic Hour](https://magichour.ai) through [LiteLLM](https://docs.litellm.ai), from the SDK or the OpenAI-compatible proxy. It's a LiteLLM custom provider, not one built into LiteLLM.
 
 It supports one model, `z-image-turbo`, and one square image per call.
